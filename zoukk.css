@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    border: border-box;
+   
+  }
+
+.panel-1{
+ height: 40PX;
+ background-color:#0D485D;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+}
+
+.sales{
+    color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   
+}
+
+.panel-2 {
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    color:#567989;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.block-1 a{
+    display: inline;
+    margin-left: 50px;
+}
+
+.logo{
+    background-image: url("anvika.png");
+    background-size: cover;
+    height: 80px;
+    width: 170px;
+    margin-left:100px ;
+    margin-bottom: 12px;
+}
+.block-3 a{
+    display: inline;
+    margin-left: 50px;
+}
+.property{
+    width: 45px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #567989;
+
+}
+
+/** hero section **/
+.hero-section{
+    background-image: url("template1.webp");
+    background-size: cover;
+    height: 800px;
+   
+}
+
+.hero-msg {
+    height: 537px;
+    width: 537px;
+    background-color: #cc644e;
+    position: relative;
+    left: 890px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hero-offer{
+    font-size: 50px;
+   font-family: serif;
+    color: #ffffffda;
+}
+
+.hero-code{
+    color:bisque;
+}
+.button{
+    padding: 15px 25px;
+    margin-top: 15px;
+    border: none;
+    background-color: #0D485D;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    color: #0D485D;
+    background-color: #cc644e;
+    border: 1px solid #0D485D;
+    transition-duration: 0.5s;
+ 
+}
+
+
+/*shop section*/
+.shop-section1{
+    background-color:#FFE4FC;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.bag-heading{
+padding-top: 100PX;
+background-color:#FFE4FC;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.shop-content{
+    font-family: Georgia, serif;
+    font-size: 1.9rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #cc644e;
+}
+.shop-section2{
+   background-color:#FFE4FC;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-bottom: 200px;
+}
+
+.footwear-heading{
+    padding-top: 100PX;
+    background-color:#FFE4FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footwear-content{
+    font-family: Georgia, serif;
+    font-size: 1.9rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #cc644e;
+}
+.box{
+   height: 400px;
+   width: 23%;
+   margin-top: 10px;
+   background-size:cover ;
+}
+
+.box button{
+    position: relative;
+padding: 20px;
+    top: 280px;
+    left: 60px;
+    width: 180PX;
+    font-family: system-ui;
+}
+button:hover{
+    background-color: #0D485D;
+    border: none;
+    color: #FFFFFF;
+}
+
+/*footer*/
+.foot-panel1{
+    background-color: #cc644e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 70px;
+}
+
+
+ul p {
+    font-size: 1.3rem;
+     font-weight:800;
+     color: #FFFFFF;
+     
+    }
+.orange{
+    color: rgb(247, 165, 66);
+    font-size: 1.8rem;
+}
+.source{
+    display:flex;
+    margin-left: 2px;
+}
+.note{
+    font-size: 1rem;
+    margin-top:20px ;
+    color: #FFE4FC;
+    display: flex;
+    flex-direction: column;
+}
+#email{
+   padding: 9px;
+   margin-top: 18px;
+   font-family: serif;
+   font-size: 1rem;
+   font-weight: 400;
+   color:#FFE4FC;
+   background-color: #cc644e;
+   border: 1PX solid #FFFFFF;
+ 
+}
+
+
+.source a{ 
+    margin-left: 15px;
+    font-size: 20px;
+}
+ul a{
+    display: block;
+    font-size: 1em;
+    margin-top:20px ;
+    color: #FFE4FC;
+ 
+}
+
+.info-zouk{
+   padding-top: 70px;
+    background-color: #cc644e;
+    color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 100px;
+}
+
+.info{
+    height: 80px;
+    width: 92%;
+    text-align: center;
+}
